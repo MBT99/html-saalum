@@ -1,0 +1,225 @@
+<html>
+  <head>
+    <title>Saalum Recyclean - Transformer les Déchets Plastiques en Solutions Durables</title>
+<style>
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #2ecc71;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  nav ul {
+    padding: 0;
+    list-style: none;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  header #branding {
+    float: left;
+  }
+  header #branding h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  .highlight {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  #showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1532996122724-e3c354a0b15b') no-repeat center center/cover;
+    height: 400px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #showcase h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  #showcase p {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+  .btn {
+    display: inline-block;
+    background: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  .btn:hover {
+    background: #27ae60;
+  }
+  #mission {
+    padding: 2rem 0;
+    background: #fff;
+    text-align: center;
+  }
+  #services {
+    padding: 2rem 0;
+  }
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  .service-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .service-item:hover {
+    transform: translateY(-5px);
+  }
+  .service-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  #impact {
+    background: #2ecc71;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .impact-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .stat {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Saalum</span> Recyclean</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-propos">À Propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#impact">Impact</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <h1>Transformer les Déchets Plastiques en Solutions Durables</h1>
+    <p>Rejoignez notre mission pour créer un avenir plus propre et plus vert grâce à des processus innovants de recyclage et de surcyclage.</p>
+    <a href="#contact" class="btn">S'Impliquer</a>
+  </section>
+
+  <section id="mission">
+    <div class="container">
+      <h2>Notre Mission</h2>
+      <p>Chez Saalum Recyclean, nous nous engageons à relever de front le défi mondial des déchets plastiques. Notre objectif est de révolutionner la manière dont les déchets plastiques sont gérés, traités et réutilisés, en créant une économie circulaire durable qui profite à la fois à l'environnement et aux communautés.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Nos Services</h2>
+      <div class="service-grid">
+        <div class="service-item">
+          <img src="./icons/garbage.png" alt="Icône de collecte">
+          <h3>Collecte</h3>
+          <p>Nous organisons une collecte efficace des déchets plastiques provenant de diverses sources, y compris les ménages, les entreprises et les espaces publics.</p>
+        </div>
+        <div class="service-item">
+          <img src="https://img.icons8.com/color/96/000000/workflow.png" alt="Icône de traitement">
+          <h3>Traitement</h3>
+          <p>Nos installations de pointe trient, nettoient et traitent les déchets plastiques en utilisant des technologies avancées.</p>
+        </div>
+        <div class="service-item">
+          <img src="./icons/recycle-sign.png" alt="Icone de recyclage">
+          <h3>Recyclage</h3>
+          <p>Nous transformons le plastique traité en matériaux recyclés de haute qualité, prêts à être réutilisés dans la fabrication.</p>
+        </div>
+        <div class="service-item">
+          <img src="https://img.icons8.com/color/96/000000/product.png" alt="Icône de produit">
+          <h3>Création de Produits</h3>
+          <p>Nous concevons et fabriquons des produits innovants en utilisant nos matériaux recyclés, promouvant ainsi une économie circulaire.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact">
+    <div class="container">
+      <h2>Notre Impact</h2>
+      <p>Depuis notre création, Saalum Recyclean a fait des progrès significatifs dans la gestion et le recyclage des déchets plastiques. Voici un aperçu de notre impact :</p>
+      <div class="impact-stats">
+        <div>
+          <span class="stat">500+</span>
+          <p>Tonnes de plastique collectées</p>
+        </div>
+        <div>
+          <span class="stat">300+</span>
+          <p>Emplois créés</p>
+        </div>
+        <div>
+          <span class="stat">50k+</span>
+          <p>Produits fabriqués</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Saalum Recyclean. Tous droits réservés.</p>
+      <p><a href="https://saalumrecyclean.com/confidentialite">Politique de Confidentialité</a> | <a href="https://saalumrecyclean.com/conditions">Conditions d'Utilisation</a></p>
+    </div>
+  </footer>
+</body>
+</html>
